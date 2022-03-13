@@ -1,0 +1,9 @@
+* {  /*Esse asterisco significa que eu quero que a propriedade que colocar seja aplicada a todos os elementos. O reset é necessário porque por padrão o navegador já vem com um estilo.*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Ajuda a manter todo o padding e toda margem que eu adicionar. Dessa forma, ele fica contido dentro da largura e altura do elemento.*/
+}
+
+ul {
+    list-style-type: none;
+}
