@@ -1,0 +1,5 @@
+.cartao-pokemon {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  /*Podemos ver vários exemplos de box-shadow nesse site: https://getcssscan.com/css-box-shadow-examples*/
+    background-color: azure; /*Tô colocando só para visualizar, depois eu vou tirar.*/
+    border-radius: 15px;
+}
