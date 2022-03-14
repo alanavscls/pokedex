@@ -3,3 +3,48 @@
     background-color: azure; /*Tô colocando só para visualizar, depois eu vou tirar.*/
     border-radius: 15px;
 }
+
+.cartao-pokemon .cartao-topo {
+    background-color: brown;
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex; /*Usando o flex nos "detalhes" porque é o pai e os filhos serão afetados, deixando-os in line. O que eu quero é que o "#001" vá para o lado do nome do Pokémon e fique no canto direito*/
+    justify-content: space-between;  /*Justify-content alinha horizontalmente.*/ 
+    align-items: center;  /*Align-itemsn alinha verticalmente.*/
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img {
+    max-height: 100%;  
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px; /*Informação: é 80 em cima, 30 de cada lado e 50 embaixo.*/
+    margin-top: -70px; /*Negativo porque queremos o efeito que o Pokémon fique "por cima" da div. Isso acontece porque está negativo, ao invés do espaçamento ir para baixo (padrão do margin-top), ele tira os -70px do elemento, como se fosse um efeito contrário.*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
