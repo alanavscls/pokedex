@@ -5,7 +5,6 @@
 }
 
 .cartao-pokemon .cartao-topo {
-    background-color: brown;
     padding: 30px 40px 0;
 }
 
@@ -74,3 +73,27 @@
 }
 
 /*Só colocando isso até aqui não mudou nada porque a classe "aberto" está apenas no Pikachu. Sendo que por padrão o display block é para esse tipo de elemento de div. Por isso temos que dá um "display: none" em todas elas (voltemos ao ".cartao-pokemon) e vamos "esconder" todas.*/
+
+.tipo-eletrico {
+    background-color: #FCC719;
+}
+
+.tipo-grama {
+    background-color: #49D0B0;
+}
+
+.tipo-fogo {
+    background-color: #ED8A8B;
+}
+
+.tipo-agua {
+    background-color: #76BEFE;
+}
+
+.tipo-veneno {
+    background-color: #BA68C8;
+}
+
+.tipo-dragao {
+    background-color: #C29791;
+}
