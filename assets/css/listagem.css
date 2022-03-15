@@ -1,0 +1,37 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6B727A;
+    color: #FFFFFF;
+    padding: 0 5px;
+    cursor: pointer; /*Faz com que fique aquela mãozinha quando o mouse passa por cima.*/
+    border-top-left-radius: 30px;  /*eu tô dizendo que quero em cima e esqueda*/
+    border-bottom-left-radius: 30px;
+    min-height: 70px;  /*Sem isso a foto da cabeça fica muito colada. Aí com o background cinza é que fica mais visível. Usando o "min-height" eu estabeleço a altura mínima que quero.*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out; /*O primeiro é o tempo da transição e o segundo é o tipo. Esse é bem comum, preciso estudar mais os outros tipos.*/
+}
+
+.listagem .pokemon:hover {  /*:hover significa quando eu passar o mouse na div ".pokemon" eu quero fazer as seguintes coisas:*/
+    transform: scale(1.15); /*Isso nos dá uma leve aumentada no elemento quando, mais uma vez, o mouse passar por cima.*/
+
+}
+
+.listagem .pokemon img {   /*Quero alterar a imagem para a listagem ficar só a cabeça do pokémon. Na hora de nos referir no CSS podemos chamar pela tag mesmo, no caso, "img".*/
+    width: 25%; 
+    border-radius: 60%;
+}
+
+.listagem .pokemon span {
+    padding-right: 20px; /*Sem isso o nome do pokémon fica muito colado na direita*/
+}
+
+.listagem .pokemon.ativo {
+    background-color: #FA6668;  /*Por enquanto deixamos só no Pikachu a classe "ativo"(olhar o HTML), mas com o JS vai ficar quando clicarmos em todos.*/
+}
