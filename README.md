@@ -1,6 +1,6 @@
 ![header](https://cdn.discordapp.com/attachments/557400688918003712/954943028055932948/pikachu.png)
 
-## | ------------- | ------------ | 🚧 Status: em desenvolvimento 🚧 | ------------ | ------------- |
+## | ----------- | ---------- | 🚧 Status: em desenvolvimento 🚧 | ---------- | ----------- |
 
 
 ## 🚀 Sobre o Projeto
