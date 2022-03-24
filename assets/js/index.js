@@ -15,39 +15,17 @@ listaSelecaoPokemon.forEach(pokemon => {
         const idPokemonSelecionado = pokemon.attributes.id.value
 
         const idCartaoPokemonParaAbrir = 'cartao-' + idPokemonSelecionado
+        const cartaoPokemonParaAbrir = document.getElementById(idCartaoPokemonParaAbrir)
+        cartaoPokemonParaAbrir.classList.add('aberto')
 
 
+        const pokemonAtivoListagem = document.querySelector('.ativo')
 
+        pokemonAtivoListagem.classList.remove('ativo')
 
+        const pokemonSelecionadoListagem = document.getElementById(idPokemonSelecionado)
 
-
-
-
-
-
-
-
-
-
-
+        pokemonSelecionadoListagem.classList.add('ativo')
     })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 })

@@ -20,6 +20,10 @@
 
 .listagem .pokemon:hover {  /*:hover significa quando eu passar o mouse na div ".pokemon" eu quero fazer as seguintes coisas:*/
     transform: scale(1.15); /*Isso nos dá uma leve aumentada no elemento quando, mais uma vez, o mouse passar por cima.*/
+    -webkit-transform:scale(1.05);
+   -moz-transform:scale(1.05);
+   -ms-transform:scale(1.05);
+   -o-transform:scale(1.05);
 
 }
 
