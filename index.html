@@ -24,14 +24,14 @@
                 <div class="cartoes-pokemon">
 
                     <!--Pokémon: Pikachu-->
-                    <div class="cartao-pokemon aberto tipo-eletrico"> <!--Isso mesmo, são três classes dentro da mesma div. Nós separamos apenas por um espaço.-->
+                    <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu"> <!--Isso mesmo, são três classes dentro da mesma div. Nós separamos apenas por um espaço.-->
                         <div class="cartao-topo">
                             <div class="detalhes"> <!--Essa div é dos detalhes onde ficam o nome e o número do pokémon-->
                                 <h2 class="nome">Pikachu</h2>
                                 <span>#001</span> 
                             </div>
 
-                            <span class="tipo">elétrico</span> <!--Esse span ficou fora da "div de detalhes" porque eu queria ele embaixo do nome do pokémon.-->
+                            <span class="tipo">raio</span> <!--Esse span ficou fora da "div de detalhes" porque eu queria ele embaixo do nome do pokémon.-->
 
                             <div class="cartao-imagem"> <!--Essa div é para colocarmos a imagem que queremos, no caso, a do pikachu.-->
                                 <img src="assets/img/pikachu.png" alt="Imagem do Pikachu" />
@@ -63,7 +63,7 @@
                     </div>
 
                     <!--Pokémon: Bulbasaur-->
-                    <div class="cartao-pokemon tipo-grama">
+                    <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
                         <div class="cartao-topo">
                             <div class="detalhes"> <!--Essa div é dos detalhes onde ficam o nome e o número do pokémon-->
                                 <h2 class="nome">Bulbasaur</h2>
@@ -102,7 +102,7 @@
                     </div>
 
                     <!--Pokémon: Charmander-->
-                    <div class="cartao-pokemon tipo-fogo">
+                    <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
                         <div class="cartao-topo">
                             <div class="detalhes"> <!--Essa div é dos detalhes onde ficam o nome e o número do pokémon-->
                                 <h2 class="nome">Charmander</h2>
@@ -141,7 +141,7 @@
                     </div>
 
                     <!--Pokémon: Gyarados-->
-                    <div class="cartao-pokemon tipo-agua">
+                    <div class="cartao-pokemon tipo-agua" id="cartao-gyarados">
                         <div class="cartao-topo">
                             <div class="detalhes"> <!--Essa div é dos detalhes onde ficam o nome e o número do pokémon-->
                                 <h2 class="nome">Gyarados</h2>
@@ -180,7 +180,7 @@
                     </div>
 
                     <!--Pokémon: Gengar-->
-                    <div class="cartao-pokemon tipo-fantasma-e-veneno">
+                    <div class="cartao-pokemon tipo-fantasma-e-veneno" id="cartao-gengar">
                         <div class="cartao-topo">
                             <div class="detalhes"> <!--Essa div é dos detalhes onde ficam o nome e o número do pokémon-->
                                 <h2 class="nome">Gengar</h2>
@@ -219,7 +219,7 @@
                     </div>
 
                     <!--Dragonite-->
-                    <div class="cartao-pokemon tipo-dragao">
+                    <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
                         <div class="cartao-topo">
                             <div class="detalhes"> <!--Essa div é dos detalhes onde ficam o nome e o número do pokémon-->
                                 <h2 class="nome">Dragonite</h2>
@@ -261,27 +261,32 @@
             <!--Criando o menu de listagem dos Pokémons-->
                 <nav class="listagem">
                     <ul>
-                        <li class="pokemon ativo">
+                        <li class="pokemon ativo" id="pikachu">
                             <img src="./assets/img/cabeca-pikachu.png" alt="Imagem menor da cabeça do Pikachu" />
                             <span>Pikachu</span>
                         </li>
-                        <li class="pokemon">
+
+                        <li class="pokemon" id="bulbasaur">
                             <img src="./assets/img/cabeca-bulbasaur.png" alt="Imagem menor da cabeça do Bulbasaur" />
                             <span>Bulbasaur</span>
                         </li>
-                        <li class="pokemon">
+
+                        <li class="pokemon" id="charmander">
                             <img src="./assets/img/cabeca-charmander.png" alt="Imagem menor da cabeça do Charmander" />
                             <span>Charmander</span>
                         </li>
-                        <li class="pokemon">
+
+                        <li class="pokemon" id="gyarados">
                             <img src="./assets/img/cabeca-gyarados.png" alt="Imagem menor da cabeça do Gyarados" />
                             <span>Gyarados</span>
                         </li>
-                        <li class="pokemon">
+
+                        <li class="pokemon" id="gengar">
                             <img src="./assets/img/cabeca-gengar.png" alt="Imagem menor da cabeça do Gengar" />
                             <span>Gengar</span>
                         </li>
-                        <li class="pokemon">
+
+                        <li class="pokemon" id="dragonite">
                             <img src="./assets/img/cabeca-dragonite.png" alt="Imagem menor da cabeça do Dragonite" />
                             <span>Dragonite</span>
                         </li>                        
