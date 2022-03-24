@@ -11,7 +11,12 @@ listaSelecaoPokemon.forEach(pokemon => {
 
         cartaoPokemonAberto.classList.remove('aberto')
 
-        
+
+        const idPokemonSelecionado = pokemon.attributes.id.value
+
+        const idCartaoPokemonParaAbrir = 'cartao-' + idPokemonSelecionado
+
+
 
 
 
