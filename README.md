@@ -1,4 +1,8 @@
-![header](https://cdn.discordapp.com/attachments/557400688918003712/954943028055932948/pikachu.png)
+## Layout
+
+<p align="center">
+ <img width="600" height="600" src="/assets/img/gif-pokedex.gif" />
+</p>
 
 ## | ----------- | ---------- | 🚧 Status: em desenvolvimento 🚧 | ---------- | ----------- |
 
