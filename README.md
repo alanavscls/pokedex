@@ -4,7 +4,7 @@
  <img width="600" height="600" src="/assets/img/gif-pokedex.gif" />
 </p>
 
-## | ----------- | ---------- | 🚧 Status: em desenvolvimento 🚧 | ---------- | ----------- |
+## | ----------- | -------- | 🚧 Status: em desenvolvimento 🚧 | --------- | ----------- |
 
 
 ## 🚀 Sobre o Projeto
