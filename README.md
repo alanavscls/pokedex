@@ -1,4 +1,4 @@
-## Layout
+## 🎨 Layout
 
 <p align="center">
  <img width="600" height="600" src="/assets/img/gif-pokedex.gif" />
